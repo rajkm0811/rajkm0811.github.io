@@ -1,15 +1,18 @@
-# Raj Kumar M — Portfolio v5: Data in Motion — old-site palette & font
+# Raj Kumar M — Portfolio (v1 style restored, v6)
 
-A portfolio designed as a data pipeline, because that's what Raj builds.
+Modern portfolio for Raj Kumar M, Data Scientist & Data Engineer based in Dallas, TX.
 
-**Concept:** Warm paper + ink editorial design (no generic dark template). The site runs like a pipeline:
-- Live status bar: "PIPELINE STATUS: RUNNING"
-- Interactive 4-stage pipeline (Ingest → Process → Store → Serve) — click a stage to see the stack inside it
-- A working "Run a Query" terminal: `SELECT * FROM engineer;`
-- Experience as a production Run Log (RUN_001 → RUN_005)
-- Skills as a database schema table
-- Systems in Production as a numbered editorial index
+**Live site:** https://rajkm0811.github.io
 
-**Live:** https://rajkm0811.github.io · **Repo:** github.com/rajkm0811/rajkm0811.github.io
+## Stack
+- Plain HTML, CSS, and JavaScript — no build step, fast on GitHub Pages
+- Animated particle background, typing roles, animated counters, skill filters, scroll reveal
 
-Files: `index.html`, `style.css`, `script.js`, `assets/raj-profile.jpg`. Plain HTML/CSS/JS, no build step.
+## Files
+- `index.html` — page content
+- `style.css` — styling
+- `script.js` — interactions
+- `assets/profile-pic.jpg` — profile photo
+
+## Run locally
+Open `index.html` in a browser, or run `python3 -m http.server` in this folder.

@@ -1,4 +1,4 @@
-# Raj Kumar M — Portfolio (v1 style restored, v6)
+# Raj Kumar M — Portfolio (v1 style, Edu SA Beginner font, v7)
 
 Modern portfolio for Raj Kumar M, Data Scientist & Data Engineer based in Dallas, TX.
 

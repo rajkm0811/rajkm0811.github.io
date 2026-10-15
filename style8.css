@@ -1,0 +1,63 @@
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#070812;--card:rgba(255,255,255,.06);--line:rgba(255,255,255,.12);--txt:#eef0ff;--mut:#a7abd0;--a:#7c5cff;--b:#00d4ff;--c:#00ffa3}
+html{scroll-behavior:smooth}
+body{font-family:'Edu SA Beginner',cursive;background:var(--bg);color:var(--txt);overflow-x:hidden}
+#bg{position:fixed;inset:0;z-index:-3;opacity:.55}
+.glow{position:fixed;width:520px;height:520px;border-radius:50%;filter:blur(130px);z-index:-2;opacity:.5}
+.glow-a{background:var(--a);top:-120px;left:-120px}.glow-b{background:#0b4d66;bottom:-160px;right:-120px}
+a{color:inherit;text-decoration:none}
+.nav{position:fixed;top:0;left:0;right:0;z-index:50;display:flex;justify-content:space-between;align-items:center;padding:16px 5vw;background:rgba(7,8,18,.72);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.logo{font-size:28px;font-weight:900}.logo span{color:var(--b)}
+.nav nav{display:flex;gap:26px;align-items:center}.nav nav a{color:var(--mut);font-weight:600}.nav nav a:hover{color:#fff}
+.nav-cta{border:1px solid var(--line);padding:9px 16px;border-radius:999px;color:#fff!important}
+.burger{display:none;background:none;border:0;color:#fff;font-size:24px}
+main{padding:0 5vw;max-width:1240px;margin:auto}
+.hero{min-height:100vh;display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:center;padding-top:90px}
+.pill{display:inline-block;padding:8px 14px;border:1px solid var(--line);border-radius:999px;background:var(--card);color:var(--c);font-size:13px;font-weight:700}
+.hero h1{font-size:clamp(48px,7vw,84px);line-height:.98;margin:18px 0 8px;font-weight:900}
+.grad{background:linear-gradient(90deg,var(--a),var(--b),var(--c));-webkit-background-clip:text;background-clip:text;color:transparent}
+.typing-wrap{font-family:'Edu SA Beginner',cursive;font-size:clamp(19px,2.6vw,30px);color:var(--b);min-height:40px}
+.cursor{animation:blink 1s infinite}@keyframes blink{50%{opacity:0}}
+.hero-sub{color:var(--mut);font-size:18px;line-height:1.7;margin:16px 0 26px;max-width:620px}
+.hero-btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn{padding:13px 20px;border-radius:999px;font-weight:700;border:1px solid var(--line);display:inline-block;transition:.25s}
+.btn:hover{transform:translateY(-2px)}
+.btn.primary{background:linear-gradient(90deg,var(--a),var(--b));border:0;color:#fff;box-shadow:0 12px 34px rgba(124,92,255,.35)}
+.btn.ghost{background:var(--card)}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:34px}
+.stats div{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:16px}
+.stats strong{font-size:28px;display:block}.stats small{color:var(--mut)}
+.hero-photo{position:relative;display:flex;justify-content:center}
+.photo-ring{width:min(380px,80vw);aspect-ratio:1;border-radius:36px;padding:6px;background:linear-gradient(145deg,var(--a),var(--b),var(--c));box-shadow:0 30px 80px rgba(0,212,255,.22);animation:float 6s ease-in-out infinite}
+.photo-ring img{width:100%;height:100%;object-fit:cover;border-radius:31px;display:block}
+@keyframes float{50%{transform:translateY(-12px)}}
+.float-card{position:absolute;background:rgba(13,14,30,.9);border:1px solid var(--line);backdrop-filter:blur(10px);padding:10px 14px;border-radius:999px;font-size:13px;font-weight:700;box-shadow:0 14px 34px rgba(0,0,0,.35)}
+.fc1{top:6%;left:-4%}.fc2{bottom:14%;right:-4%}.fc3{bottom:-3%;left:10%}
+.section{padding:92px 0 10px}
+.kicker{text-transform:uppercase;letter-spacing:.22em;color:var(--b);font-size:12px;font-weight:800;text-align:center}
+.section h2{font-size:clamp(32px,4.5vw,50px);text-align:center;margin:8px 0 34px}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.card,.project,.skill{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:26px}
+.card p{color:var(--mut);line-height:1.75;margin-top:10px}
+.card li{list-style:none;padding:9px 0;border-bottom:1px solid var(--line);color:#dfe2ff}
+.card li:last-child{border:0}
+.filters{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-bottom:22px}
+.filter{background:var(--card);color:var(--mut);border:1px solid var(--line);padding:10px 16px;border-radius:999px;font-weight:700;cursor:pointer}
+.filter.active{background:linear-gradient(90deg,var(--a),var(--b));color:#fff;border:0}
+.skill-grid,.project-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.skill span{font-size:28px}.skill h4{margin:8px 0;font-size:18px}.skill small{color:var(--c);font-weight:700}
+.skill .tags,.job .tags{color:var(--mut);line-height:1.6;font-size:14px}
+.bar{height:8px;background:rgba(255,255,255,.1);border-radius:99px;overflow:hidden;margin:10px 0}
+.bar i{display:block;height:100%;width:var(--w);background:linear-gradient(90deg,var(--a),var(--b),var(--c));border-radius:99px}
+.skill.hide{display:none}
+.timeline{max-width:860px;margin:auto;display:grid;gap:16px}
+.job{position:relative;background:var(--card);border:1px solid var(--line);border-radius:22px;padding:24px 24px 24px 34px}
+.job .dot{position:absolute;left:14px;top:28px;width:10px;height:10px;border-radius:50%;background:var(--c);box-shadow:0 0 18px var(--c)}
+.when{color:var(--b);font-family:'Edu SA Beginner',cursive;font-size:13px}
+.job h3{margin:7px 0}.job p{color:var(--mut);line-height:1.7}
+.project h3{margin-bottom:10px}.project p{color:var(--mut);line-height:1.7}
+.contact-sub{text-align:center;color:var(--mut);max-width:680px;margin:-14px auto 24px;line-height:1.7}
+.contact-row{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+footer{text-align:center;color:var(--mut);padding:54px 5vw 34px}
+.reveal{opacity:0;transform:translateY(24px);transition:.7s ease}.reveal.in{opacity:1;transform:none}
+@media(max-width:900px){.hero{grid-template-columns:1fr;padding-top:120px;text-align:center}.hero-sub{margin-inline:auto}.hero-btns,.stats{justify-content:center}.stats{grid-template-columns:repeat(2,1fr)}.about-grid,.skill-grid,.project-grid{grid-template-columns:1fr}.nav nav{display:none;position:absolute;top:64px;right:5vw;flex-direction:column;background:#101126;padding:18px;border:1px solid var(--line);border-radius:18px}.nav nav.open{display:flex}.burger{display:block}.fc1{left:0}.fc2{right:0}}

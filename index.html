@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Raj Kumar M — Data Scientist & Data Engineer</title>
+<meta name="description" content="Raj Kumar M is a Data Scientist and Data Engineer in Dallas, TX building scalable data platforms, streaming pipelines, and ML-ready datasets across AWS, Azure and GCP.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="bg"></canvas>
+<div class="glow glow-a"></div><div class="glow glow-b"></div>
+
+<header class="nav">
+  <a class="logo" href="#top">RK<span>.</span></a>
+  <nav id="navLinks">
+    <a href="#about">About</a><a href="#skills">Skills</a><a href="#experience">Experience</a>
+    <a href="#projects">Projects</a><a href="#education">Education</a><a href="#contact" class="nav-cta">Contact</a>
+  </nav>
+  <button class="burger" id="burger" aria-label="Menu">☰</button>
+</header>
+
+<main id="top">
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-text reveal">
+      <p class="pill">● Available for Data Engineering &amp; Data Science roles</p>
+      <h1>Raj Kumar <span class="grad">M</span></h1>
+      <h2 class="typing-wrap"><span id="typing"></span><span class="cursor">|</span></h2>
+      <p class="hero-sub">I build the data backbone ML teams trust — scalable pipelines, real-time streaming, and lakehouse platforms across <strong>AWS, Azure &amp; GCP</strong> that turn raw data into model-ready, decision-ready products.</p>
+      <div class="hero-btns">
+        <a class="btn primary" href="#contact">Get in Touch →</a>
+        <a class="btn ghost" href="#experience">View Experience</a>
+        <a class="btn ghost" href="https://www.linkedin.com/in/rajkumarmaddoju04" target="_blank" rel="noopener">LinkedIn ↗</a>
+      </div>
+      <div class="stats">
+        <div><strong><span class="count" data-to="6">0</span>+</strong><small>Years Experience</small></div>
+        <div><strong><span class="count" data-to="3">0</span></strong><small>Cloud Platforms</small></div>
+        <div><strong><span class="count" data-to="5">0</span></strong><small>Industries Served</small></div>
+        <div><strong><span class="count" data-to="40">0</span>+</strong><small>Tools &amp; Technologies</small></div>
+      </div>
+    </div>
+    <div class="hero-photo reveal">
+      <div class="photo-ring"><img src="assets/profile-pic.jpg" alt="Raj Kumar M"></div>
+      <div class="float-card fc1">⚡ PySpark · Kafka · Spark</div>
+      <div class="float-card fc2">☁️ AWS · Azure · GCP</div>
+      <div class="float-card fc3">🤖 MLflow · Delta Lake</div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section reveal">
+    <p class="kicker">Get to know</p><h2>About Me</h2>
+    <div class="about-grid">
+      <div class="card">
+        <h3>What I do</h3>
+        <p>Data professional with around 6 years of experience across financial services, telecom, healthcare, retail, and data-center industries. I specialize in feature-engineering pipelines, curated model-ready datasets, and the streaming and batch platforms behind them.</p>
+        <p>I partner directly with data scientists, architects, and business teams to design cloud-native platforms that are fast, governed, and reliable — with data quality built in, not bolted on.</p>
+      </div>
+      <div class="card highlights">
+        <h3>Core strengths</h3>
+        <ul>
+          <li>🏗️ Lakehouse architecture on S3 / ADLS Gen2 with Delta Lake &amp; Iceberg</li>
+          <li>🌊 Real-time streaming with Kafka, Kinesis &amp; Event Hubs</li>
+          <li>🧠 Feature engineering &amp; ML enablement with MLflow</li>
+          <li>✅ Data quality, governance &amp; lineage frameworks</li>
+          <li>🚀 CI/CD &amp; IaC — Terraform, GitHub Actions, Azure DevOps</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section reveal">
+    <p class="kicker">Explore my</p><h2>Skills &amp; Stack</h2>
+    <div class="filters">
+      <button class="filter active" data-f="all">All</button>
+      <button class="filter" data-f="core">Core</button>
+      <button class="filter" data-f="cloud">Cloud</button>
+      <button class="filter" data-f="stream">Streaming &amp; Big Data</button>
+      <button class="filter" data-f="devops">DevOps &amp; ML</button>
+    </div>
+    <div class="skill-grid" id="skillGrid">
+      <div class="skill" data-cat="core"><span>🐍</span><h4>Python</h4><div class="bar"><i style="--w:95%"></i></div><small>Expert</small></div>
+      <div class="skill" data-cat="core"><span>🗄️</span><h4>SQL</h4><div class="bar"><i style="--w:95%"></i></div><small>Expert</small></div>
+      <div class="skill" data-cat="core stream"><span>⚡</span><h4>PySpark / Spark</h4><div class="bar"><i style="--w:92%"></i></div><small>Expert</small></div>
+      <div class="skill" data-cat="core"><span>🔷</span><h4>Scala</h4><div class="bar"><i style="--w:80%"></i></div><small>Advanced</small></div>
+      <div class="skill" data-cat="stream"><span>📨</span><h4>Apache Kafka</h4><div class="bar"><i style="--w:92%"></i></div><small>Expert</small></div>
+      <div class="skill" data-cat="stream"><span>🧱</span><h4>Databricks</h4><div class="bar"><i style="--w:90%"></i></div><small>Expert</small></div>
+      <div class="skill" data-cat="stream"><span>❄️</span><h4>Snowflake</h4><div class="bar"><i style="--w:88%"></i></div><small>Advanced</small></div>
+      <div class="skill" data-cat="stream"><span>🔺</span><h4>Delta Lake</h4><div class="bar"><i style="--w:90%"></i></div><small>Expert</small></div>
+      <div class="skill" data-cat="cloud"><span>☁️</span><h4>AWS</h4><p class="tags">S3 · Glue · Lambda · Redshift · Athena · Step Functions · DynamoDB · Kinesis</p></div>
+      <div class="skill" data-cat="cloud"><span>🔵</span><h4>Azure</h4><p class="tags">ADF · Databricks · Synapse · ADLS Gen2 · Event Hubs · Cosmos DB</p></div>
+      <div class="skill" data-cat="cloud"><span>🌐</span><h4>GCP</h4><p class="tags">BigQuery · Dataproc · GCS · Pub/Sub · Composer</p></div>
+      <div class="skill" data-cat="devops"><span>🌬️</span><h4>Airflow</h4><div class="bar"><i style="--w:88%"></i></div><small>Advanced</small></div>
+      <div class="skill" data-cat="devops"><span>🏗️</span><h4>Terraform / IaC</h4><div class="bar"><i style="--w:85%"></i></div><small>Advanced</small></div>
+      <div class="skill" data-cat="devops"><span>🤖</span><h4>MLflow &amp; MLOps</h4><div class="bar"><i style="--w:85%"></i></div><small>Advanced</small></div>
+      <div class="skill" data-cat="devops"><span>📊</span><h4>Power BI</h4><div class="bar"><i style="--w:84%"></i></div><small>Advanced</small></div>
+      <div class="skill" data-cat="devops"><span>🐳</span><h4>Docker / Kubernetes</h4><div class="bar"><i style="--w:80%"></i></div><small>Advanced</small></div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section reveal">
+    <p class="kicker">My journey</p><h2>Experience</h2>
+    <div class="timeline">
+      <article class="job"><div class="dot"></div><p class="when">Mar 2025 — Present · Dallas, TX</p><h3>Data Scientist — Digital Realty</h3><p>Building cloud-native data platforms on AWS &amp; Azure for customer analytics, BI, and ML. Leading Kafka ecosystems and feature-engineering pipelines that deliver model-ready datasets, with enterprise data quality and governance built in.</p><p class="tags">Kafka · PySpark · AWS Glue · Azure Databricks · MLflow · Delta Lake</p></article>
+      <article class="job"><div class="dot"></div><p class="when">Sep 2024 — Feb 2025 · Philadelphia, PA</p><h3>Azure Data Engineer — Comcast</h3><p>Designed Azure data pipelines for large-scale telecom data, using ADF, Databricks, and Synapse to deliver reliable, analytics-ready datasets.</p><p class="tags">Azure Data Factory · Databricks · Synapse · ADLS Gen2</p></article>
+      <article class="job"><div class="dot"></div><p class="when">Aug 2023 — Aug 2024 · Newark, NJ</p><h3>Big Data Engineer — Horizon BCBS</h3><p>Built big-data pipelines for healthcare data at scale, focused on quality, governance, and secure delivery for analytics teams.</p><p class="tags">Spark · Hadoop · SQL · Healthcare Data</p></article>
+      <article class="job"><div class="dot"></div><p class="when">Jan 2023 — May 2023 · Dallas, TX</p><h3>Big Data Engineer Intern — Fiserv</h3><p>Worked on financial-services data pipelines, transforming transactional data for reporting and analytics.</p><p class="tags">Python · SQL · Financial Data</p></article>
+      <article class="job"><div class="dot"></div><p class="when">Aug 2018 — Jul 2021 · Hyderabad, India</p><h3>Python Developer / Data Engineer — Google</h3><p>Built Python and BigQuery solutions for feedback and business reporting data — extracting, transforming, and analyzing data to drive product decisions.</p><p class="tags">Python · BigQuery · SQL · GCP</p></article>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section reveal">
+    <p class="kicker">Featured work</p><h2>What I Build</h2>
+    <div class="project-grid">
+      <article class="project"><h3>🌊 Real-Time Streaming Platforms</h3><p>Enterprise Kafka ecosystems — topic design, partitioning, Schema Registry, multi-cluster replication — integrated with Kinesis and Event Hubs for low-latency event processing.</p></article>
+      <article class="project"><h3>🧠 Feature Engineering Pipelines</h3><p>Batch and streaming feature pipelines that turn raw transactional, behavioral, and clickstream data into curated, model-ready features for propensity, personalization, and risk models.</p></article>
+      <article class="project"><h3>🏗️ Lakehouse Architecture</h3><p>Delta Lake and Iceberg lakehouses on S3 and ADLS Gen2 with ACID transactions, incremental ingestion, and unified batch + streaming analytics.</p></article>
+      <article class="project"><h3>✅ Data Quality &amp; Governance</h3><p>Reconciliation, validation, and lineage frameworks with Unity Catalog, Purview, and Great Expectations — so downstream teams can trust every dataset.</p></article>
+      <article class="project"><h3>☁️ Cloud Migration</h3><p>Modernizing legacy on-prem ETL and warehouses (Informatica, SSIS, Oracle) into cloud-native architectures on AWS and Azure.</p></article>
+      <article class="project"><h3>🚀 Platform Automation</h3><p>Infrastructure and pipeline deployment automated with Terraform, GitHub Actions, Azure DevOps, and Jenkins — tested, repeatable, and production-ready.</p></article>
+    </div>
+    <div class="certs">
+      <h3>Certifications &amp; Specializations</h3>
+      <div class="cert-row"><span>☁️ DevOps on AWS Specialization</span><span>📊 From Data to Insights with Google Cloud</span><span>🤖 Machine Learning on Google Cloud</span></div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="section reveal">
+    <p class="kicker">Background</p><h2>Education</h2>
+    <div class="about-grid">
+      <div class="card"><h3>🎓 M.S. Computer &amp; Information Systems</h3><p><strong>New England College</strong> — Henniker, NH<br>May 2023 · GPA 3.85</p></div>
+      <div class="card"><h3>🎓 B.Tech Information Technology</h3><p><strong>JNTU Hyderabad</strong> — India<br>May 2018</p></div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section reveal">
+    <p class="kicker">Get in touch</p><h2>Let’s Build Something Great</h2>
+    <p class="contact-sub">Open to Data Engineering, Data Science, and Cloud Data Platform opportunities — based in McKinney / Dallas, TX, open to relocation nationwide.</p>
+    <div class="contact-row">
+      <a class="btn primary" href="mailto:rajkumarmaddoju04@gmail.com">✉️ rajkumarmaddoju04@gmail.com</a>
+      <a class="btn ghost" href="tel:+12147990556">📞 +1 (214) 799-0556</a>
+      <a class="btn ghost" href="https://www.linkedin.com/in/rajkumarmaddoju04" target="_blank" rel="noopener">LinkedIn ↗</a>
+      <a class="btn ghost" href="https://github.com/rajkm0811" target="_blank" rel="noopener">GitHub ↗</a>
+    </div>
+  </section>
+</main>
+
+<footer>© <span id="year"></span> Raj Kumar M · Data Scientist &amp; Data Engineer · Dallas, TX · Built with ❤️ and deployed on GitHub Pages</footer>
+<script src="script.js"></script>
+</body>
+</html>

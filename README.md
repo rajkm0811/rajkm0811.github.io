@@ -12,4 +12,4 @@ A portfolio designed as a data pipeline, because that's what Raj builds.
 
 **Live:** https://rajkm0811.github.io · **Repo:** github.com/rajkm0811/rajkm0811.github.io
 
-Files: `index.html`, `style.css`, `script.js`, `assets/profile-pic.jpg`. Plain HTML/CSS/JS, no build step.
+Files: `index.html`, `style.css`, `script.js`, `assets/raj-profile.jpg`. Plain HTML/CSS/JS, no build step.
